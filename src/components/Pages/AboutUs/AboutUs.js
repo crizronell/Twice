@@ -1,5 +1,5 @@
 import React from "react";
-import track from "../../assets/img/track.png";
+import track from "../../../assets/img/track.png";
 import { TrackListData } from "./TrackListData";
 
 function AboutUs() {

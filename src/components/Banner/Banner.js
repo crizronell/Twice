@@ -1,5 +1,5 @@
 import React from "react";
-import trailer_video from "../assets/video/trailer.mp4";
+import trailer_video from "../../assets/video/trailer.mp4";
 
 function Banner() {
   return (

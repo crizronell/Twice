@@ -1,13 +1,13 @@
-import nayeon from "../../assets/img/nayeon.jpg";
-import jeongyeon from "../../assets/img/jeongyeon.jpg";
-import momo from "../../assets/img/momo.jpg";
-import sana from "../../assets/img/sana.jpg";
-import jihyo from "../../assets/img/jihyo.jpg";
-import mina from "../../assets/img/mina.jpg";
-import dahyun from "../../assets/img/dahyun.jpg";
-import chaeyoung from "../../assets/img/chaeyoung.jpg";
-import tzuyu from "../../assets/img/tzuyu.jpg";
-import bg from "../../assets/img/bg_grp.jpg";
+import nayeon from "../../../assets/img/nayeon.jpg";
+import jeongyeon from "../../../assets/img/jeongyeon.jpg";
+import momo from "../../../assets/img//momo.jpg";
+import sana from "../../../assets/img//sana.jpg";
+import jihyo from "../../../assets/img/jihyo.jpg";
+import mina from "../../../assets/img/mina.jpg";
+import dahyun from "../../../assets/img/dahyun.jpg";
+import chaeyoung from "../../../assets/img/chaeyoung.jpg";
+import tzuyu from "../../../assets/img/tzuyu.jpg";
+import bg from "../../../assets/img/bg_grp.jpg";
 export const MembersData = [
   {
     id: 1,
