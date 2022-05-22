@@ -34,7 +34,7 @@ function Content() {
                     <img
                       src={item.img}
                       alt={item.name}
-                      className="rounded-3xl w-[25rem] mx-auto hover:opacity-75 sm:w-[40rem]"
+                      className="rounded-3xl max-w-[25rem] mx-auto hover:opacity-75 sm:max-w-screen"
                     />
                   </Link>
                   <p className=" absolute top-[50%] left-[50%] -translate-y-2/4 -translate-x-2/4 text-4xl font-bold font-sans text-white sm:text-3xl ">

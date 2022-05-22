@@ -8,7 +8,7 @@ function AboutUs() {
       <div className="grid grid-cols-1 sm:grid-cols-2 justify-items-center">
         <div className="p-4">
           <img
-            className="w-fit h-screen sm:h-[40rem] sm:min-w-xl rounded-lg"
+            className="w-fit h-screen sm:h-[40rem] sm:max-w-xl rounded-lg"
             src={track}
             alt="bg"
           />

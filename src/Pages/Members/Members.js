@@ -15,7 +15,7 @@ function Members() {
                 key={item.id}
                 src={item.img}
                 alt={item.name}
-                className="w-[62px] h-[62px] border-2 border-black hover:opacity-75 sm:h-[90px] sm:w-[90px] cursor-pointer"
+                className="w-[62px] h-[62px] border-2 border-black hover:opacity-75 sm:min-h-[90px] sm:min-w-[90px] cursor-pointer"
               />
             );
           })}

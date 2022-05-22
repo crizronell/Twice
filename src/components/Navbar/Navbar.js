@@ -19,7 +19,7 @@ function Navbar() {
             TWICE
           </Link>
         </div>
-        <div className="cursor-pointer z-20" onClick={toggle}>
+        <div className="cursor-pointer z-20 mr-5" onClick={toggle}>
           {!open ? (
             <MenuIcon className="w-6 md:hidden" />
           ) : (
