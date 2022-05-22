@@ -2,7 +2,7 @@ export const NavData = [
   {
     id: 1,
     title: "Home",
-    path: "/",
+    path: "/twice",
   },
   {
     id: 2,

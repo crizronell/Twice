@@ -1,13 +1,13 @@
 import React, { lazy, Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
-const LazyMembers = lazy(() => import("./Members/Members"));
 const LazyHome = lazy(() => import("./Home/Home"));
+const LazyMembers = lazy(() => import("./Members/Members"));
 const LazyAboutUs = lazy(() => import("./AboutUs/AboutUs"));
 function Pages() {
   return (
     <Routes>
       <Route
-        path="/"
+        path="/twice"
         element={
           <Suspense fallback={<h1>Loading...</h1>}>
             <LazyHome />

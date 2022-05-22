@@ -15,7 +15,7 @@ function Navbar() {
         role="navigation"
       >
         <div className="animate-bounce ml-10 ">
-          <Link to="/" className="text-2xl sm:text-xl font-bold font-sans">
+          <Link to="/twice" className="text-2xl sm:text-xl font-bold font-sans">
             TWICE
           </Link>
         </div>

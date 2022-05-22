@@ -1,6 +1,6 @@
 import React from "react";
-import Banner from "../../Banner/Banner";
-import Content from "../../Content/Content";
+import Banner from "../../components/Banner/Banner";
+import Content from "../../components/Content/Content";
 
 function Home() {
   return (
