@@ -16,9 +16,13 @@ function Content() {
             breakpoints: {
               640: {
                 perPage: 1,
+                
               },
               768: {
                 perPage: 2,
+                gap: "1rem",
+
+                
               },
             },
             pagination: false,
@@ -29,12 +33,12 @@ function Content() {
           {ContenData.map((item) => {
             return (
               <SplideSlide key={item.id}>
-                <div className="p-4 relative">
+                <div className="relative">
                   <Link to="/members">
                     <img
                       src={item.img}
                       alt={item.name}
-                      className="rounded-3xl max-w-[25rem] mx-auto hover:opacity-75 sm:max-w-screen"
+                      className="p-4 rounded-3xl w-[25rem] mx-auto hover:opacity-75 sm:w-[15rem]  md:w-[20rem] lg:w-[25rem]"
                     />
                   </Link>
                   <p className=" absolute top-[50%] left-[50%] -translate-y-2/4 -translate-x-2/4 text-4xl font-bold font-sans text-white sm:text-3xl ">
