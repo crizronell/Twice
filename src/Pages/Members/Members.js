@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import { MembersData } from "./MembersData";
 
 function Members() {
-  const [background, setBackground] = useState("10");
+  const [background, setBackground] = useState("1");
 
   return (
     <>
       <div className=" flex justify-center relative bg-slate-200">
-        <div className="flex flex-row flex-wrap w-fit sm:w-[20rem] gap-4 p-4 absolute top-0 left-0 right-0 ">
+        <div className="w-fit h-auto border border-indigo-600  flex flex-row flex-wrap sm:w-1/2 lg:w-96 gap-4 p-4 absolute top-0 left-0 right-0 ">
           {MembersData.map((item) => {
             return (
               <img
@@ -15,7 +15,7 @@ function Members() {
                 key={item.id}
                 src={item.img}
                 alt={item.name}
-                className="w-[62px] h-[62px] border-2 border-black hover:opacity-75 sm:min-h-[90px] sm:min-w-[90px] cursor-pointer"
+                className="w-16 h-16 border-2 border-black hover:opacity-75 cursor-pointer sm:h-[6.5rem] sm:w-[6.5rem] md:h-[6.9rem] md:w-[6.9rem]  lg:w-28 lg:h-28"
               />
             );
           })}

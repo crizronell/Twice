@@ -7,7 +7,7 @@ import mina from "../../assets/img/mina.jpg";
 import dahyun from "../../assets/img/dahyun.jpg";
 import chaeyoung from "../../assets/img/chaeyoung.jpg";
 import tzuyu from "../../assets/img/tzuyu.jpg";
-import bg from "../../assets/img/bg_grp.jpg";
+
 export const MembersData = [
   {
     id: 1,
@@ -72,9 +72,5 @@ export const MembersData = [
     img: tzuyu,
     birthday: "1999.06.14",
   },
-  {
-    id: 10,
-    ref: "10",
-    img: bg,
-  },
+  
 ];
