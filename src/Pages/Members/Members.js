@@ -7,7 +7,7 @@ function Members() {
   return (
     <>
       <div className=" flex justify-center relative bg-slate-200">
-        <div className="w-fit h-auto border border-indigo-600  flex flex-row flex-wrap sm:w-1/2 lg:w-96 gap-4 p-4 absolute top-0 left-0 right-0 ">
+        <div className="w-fit h-auto  flex flex-row flex-wrap sm:w-1/2 lg:w-96 gap-4 p-4 absolute top-0 left-0 right-0 ">
           {MembersData.map((item) => {
             return (
               <img
