@@ -5,19 +5,19 @@ import { TrackListData } from "./TrackListData";
 function AboutUs() {
   return (
     <div className="bg-slate-200">
-      <div className="grid grid-cols-1 sm:grid-cols-2 justify-items-center">
-        <div className="p-4">
+      <div className="grid gap-4 grid-cols-1 md:grid-cols-2 justify-items-center">
+        <div className="max-w-screen-sm m-10">
           <img
-            className="w-fit h-screen sm:h-[40rem] sm:max-w-xl rounded-lg"
+            className="w-fit h-screen sm:h-[40rem] md:max-w-sm rounded-lg"
             src={track}
             alt="bg"
           />
         </div>
-        <div className="p-4 w-fit font-mono text-2xl sm:text-xl ">
+        <div className="p-4 w-fit font-mono text-xl sm:text-1xl   ">
           <p className="italic font-bold text-justify grid place-items-center ">
             Formula of Love: O+T=＜3
           </p>
-          <p className="text-justify mt-4 sm:max-w-screen-sm">
+          <p className="text-justify mt-4 max-w-screen-xl ">
             The third Korean studio album by South Korean girl group Twice. It
             was released on November 12, 2021, by JYP Entertainment and Republic
             Records. Its title track, "Scientist", a "funky" dance-pop song,
@@ -27,11 +27,11 @@ function AboutUs() {
             fundamentals of romance, and by using science-related word play,
             they declare there is no right answer to love.
           </p>
-          <div className="text-xl font-bold font-mono sm:text-md ">
-            <div className="italic font-bold grid place-items-center   ">
+          <div className="text-xl font-bold font-mono sm:text-md">
+            <div className="italic font-bold grid place-items-center  ">
               <p className="mt-4">TrackList</p>
             </div>
-            <div className="grid grid-cols-2 mt-4 ">
+            <div className="grid grid-cols-2 mt-4 place-items-center  ">
               {TrackListData.map((item) => {
                 return (
                   <a
@@ -39,6 +39,7 @@ function AboutUs() {
                     href={item.link}
                     target="_blank"
                     rel="noreferrer"
+                    className="w-fit "
                   >
                     {item.title}
                   </a>
